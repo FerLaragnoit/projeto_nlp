@@ -1,0 +1,28 @@
+# Dependências do Sistema de Resumo e Simplificação de Textos
+
+# Framework web
+streamlit>=1.28.0
+
+# API da OpenAI
+openai>=1.3.0
+
+# Processamento numérico
+numpy>=1.24.0
+
+# Processamento de Linguagem Natural
+spacy>=3.6.0
+
+# Leitura de PDFs (opcional)
+PyPDF2>=3.0.0
+
+# Alternativa para PDFs (descomente se preferir)
+# pdfplumber>=0.10.0
+
+# Utilitário para contagem de tokens (opcional)
+# tiktoken>=0.5.0
+
+# Gerenciamento de variáveis de ambiente (opcional)
+# python-dotenv>=1.0.0
+
+# IMPORTANTE: Após instalar spacy, baixe o modelo em português:
+# python -m spacy download pt_core_news_sm
